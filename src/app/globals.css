@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Integral";
+    src: url("../fonts/fonnts.com-Integral_CF_Regular.ttf");
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Integral";
+}
+
+body{
+    background-color: black;
+    text-transform: uppercase;   
+}
+
+a,p{
+    color:black;
+    line-height: 100%;
+}
+
+.profile-photo{
+    position: absolute;
+    z-index: -1;
+    top: 60%;
+    left: 50%;
+    filter: brightness(60%);
+    transform: translate(-50%,-50%);
+}
+
+.specialtext{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
