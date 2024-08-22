@@ -1,13 +1,9 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 
-<<<<<<< HEAD
 import Menu from "../components/menu/Menu"
 import Footer from "../components/footer/Footer"
-=======
-import Menu from "@/components/menu/Menu"
-import Footer from "@/components/footer/Footer"
->>>>>>> 60434b7195dd73ee0c0908ee8b0a0f54a6b725f7
+7
 import SmoothScrolling from "@/components/SmoothScrolling";
 
 const inter = Inter({ subsets: ["latin"] });
